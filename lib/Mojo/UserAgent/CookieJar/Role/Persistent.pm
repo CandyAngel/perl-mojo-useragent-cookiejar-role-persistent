@@ -4,6 +4,8 @@ use Mojo::Base '-role';
 use Mojo::Cookie::Response;
 use Mojo::File;
 
+our $VERSION = '0.001';
+
 has file    => 'cookies.txt';
 has session => 1;
 
