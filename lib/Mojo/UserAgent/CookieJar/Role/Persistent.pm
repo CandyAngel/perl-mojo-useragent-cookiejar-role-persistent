@@ -58,3 +58,5 @@ sub save {
 
   return $self;
 }
+
+1;
