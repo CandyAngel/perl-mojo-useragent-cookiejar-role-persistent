@@ -1,0 +1,7 @@
+0.002  2018-01-02
+
+  * Fix lack of true return value on module
+
+0.001  2017-12-09
+
+  * Initial release
