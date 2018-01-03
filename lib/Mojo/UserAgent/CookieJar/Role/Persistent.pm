@@ -50,7 +50,7 @@ sub save {
     ];
   }
 
-  Mojo::File->($self->file)->spurt(join "\n",
+  Mojo::File->new($self->file)->spurt(join "\n",
     '# Netscape HTTP Cookie File',
     '',
     map { join "\t", @{$_} } @cookies
